@@ -5,7 +5,7 @@ use std::{
     process::{Child, Command, Stdio},
 };
 
-#[allow(unused_must_use)]
+#[allow(unused_must_use)] //for unused Result enums
 
 fn main() {
     loop {
